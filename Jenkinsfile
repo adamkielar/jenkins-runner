@@ -30,7 +30,7 @@ spec:
   stages {
     stage('Kaniko Build and Push') {
       steps {
-        sh '/kaniko/executor --dockerfile=${PWD}/Dockerfile -c ${PWD} --cache=true --destination=jenkinsacr9482.azurecr.io/jenkins-demo:v1.0.0'
+        sh '/kaniko/executor --dockerfile=${PWD}/Dockerfile -c ${PWD} --cache=true --destination=jenkinsacr7142.azurecr.io/jenkins-demo:v1.0.0'
       }
     }
     stage('Deploy Application') {
