@@ -7,7 +7,7 @@ metadata:
     azure.workload.identity/use: "true"
 spec:
   containers:
-    - image: jenkinsacr9482.azurecr.io/jenkins-demo:v1.0.0
+    - image: jenkinsacr7142.azurecr.io/jenkins-demo:v1.0.0
       name: jenkins-demo-container
   nodeSelector:
     kubernetes.io/os: linux
